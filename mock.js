@@ -104,10 +104,10 @@ const useBottomSheetDynamicSnapPoints = () => ({
 
 module.exports = {
   BottomSheetView: BottomSheetComponent,
-  BottomSheetScrollView: BottomSheetComponent,
-  BottomSheetSectionList: BottomSheetComponent,
-  BottomSheetFlatList: BottomSheetComponent,
-  BottomSheetVirtualizedList: BottomSheetComponent,
+  BottomSheetScrollView: React.ScrollView,
+  BottomSheetSectionList: React.SectionList,
+  BottomSheetFlatList: React.FlatList,
+  BottomSheetVirtualizedList: React.VirtualizedList,
 
   BottomSheetModalProvider,
   BottomSheetModal,
